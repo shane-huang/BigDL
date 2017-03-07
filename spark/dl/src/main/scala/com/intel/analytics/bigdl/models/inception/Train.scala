@@ -169,7 +169,7 @@ object TrainInceptionV2 {
       } else {
         T(
           "learningRate" -> param.learningRate,
-          "weightDecay" -> 0.0001,
+          "weightDecay" -> 0.0002,
           "momentum" -> 0.9,
           "dampening" -> 0.0,
           "learningRateSchedule" -> SGD.Step(400, 0.96)
