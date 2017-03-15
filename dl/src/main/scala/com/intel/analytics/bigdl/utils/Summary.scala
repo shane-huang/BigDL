@@ -82,9 +82,6 @@ class TrainSummary(
   protected override val writer = new FileWriter(folder)
 
   override def readScalar(tag: String): Array[(Long, Float, Double)] = {
-    while (!writer.isEmpty) {
-      Thread.sleep(100)
-    }
     FileReader.readScalar(folder, tag)
   }
 }
@@ -98,7 +95,6 @@ object TrainSummary{
         "throughput" -> Trigger.severalIteration(1))): TrainSummary = {
     new TrainSummary(logDir, appName, trigger)
   }
-
 }
 
 class ValidationSummary(
@@ -109,9 +105,6 @@ class ValidationSummary(
   protected override val writer = new FileWriter(folder)
 
   override def readScalar(tag: String): Array[(Long, Float, Double)] = {
-    while (!writer.isEmpty) {
-      Thread.sleep(100)
-    }
     FileReader.readScalar(folder, tag)
   }
 }
