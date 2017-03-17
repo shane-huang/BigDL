@@ -32,7 +32,7 @@ pip install numpy scipy pandas sklearn matplotlib seaborn jupyter tensorboard wo
 
 ## 2 Start Jupyter Server and Tensorboard Server
 
-* Create start_tensorboard.sh, copy the contents below.  In current demos, the log files are written by default into "/tmp/bigdl_summaries". So we set tensorboard logdir to the directory so that it can read the events files and produce charts.
+* Create start_tensorboard.sh, copy and paste the contents below.  In current demos, the log files are written into "/tmp/bigdl_summaries" by default . So we set tensorboard logdir to the directory so that it can read the events files and produce charts. If you changed the directory where the logs are written to, change the --logdir settings when starting tensorboard server.
 ```
 tensorboard --logdir=/tmp/bigdl_summaries
 ```
