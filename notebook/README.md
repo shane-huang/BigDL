@@ -36,7 +36,7 @@ pip install numpy scipy pandas sklearn matplotlib seaborn jupyter tensorboard wo
 ```
 tensorboard --logdir=/tmp/bigdl_summaries
 ```
-* Create start_notebook.sh, copy the contents below, and edit SPARK_HOME, BigDL_HOME. 
+* Create start_notebook.sh, copy and paste the contents below, and edit SPARK_HOME, BigDL_HOME accordingly. 
 ```
 #!/bin/bash
 
