@@ -72,4 +72,4 @@ ${SPARK_HOME}/bin/pyspark \
 ## 3 Run Demo
 * Open a browser - Suggest Chrome or Firefox or Safari
 * Access notebook client at address http://localhost:8888, open the example ipynb files and execute. 
-* Acess tensorboard client at address http://localhost:6006 and check the charts
+* Access tensorboard client at address http://localhost:6006 and check the charts
