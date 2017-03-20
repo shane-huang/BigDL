@@ -20,7 +20,7 @@ sudo easy_install pip
 ```
 * Install required python libraries using Pip
 ```
-pip install numpy scipy pandas sklearn matplotlib seaborn jupyter tensorboard wordcloud 
+pip install numpy scipy pandas scikit-learn matplotlib seaborn jupyter tensorboard wordcloud 
 ```
 
 ###  Required Package Versions
